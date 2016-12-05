@@ -71,7 +71,7 @@
     {
         "name": "Web Server Detection",
         "description": "Many web servers have easily exploited vulnerabilities.",
-        "keywords": ["--10107--"]
+        "keywords": ["--10107--", "--http-headers--"]
     },
     {
         "name": "Default Credentials",
