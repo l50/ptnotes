@@ -38,8 +38,6 @@ p {
 
 a {
   color: #000;
-  /*text-decoration: none;
-  border-bottom: 1px solid #000;*/
   -webkit-transition: opacity 0.2s linear; 
   -moz-transition: opacity 0.2s linear; 
   -o-transition: opacity 0.2s linear; 
@@ -78,12 +76,10 @@ nav a {
   padding: 0 0 2px 0;
   color: #000;
   font-size: 1.4em;
-  border-bottom: none;
 }
 
 nav a:hover {
   padding: 0;
-  border-bottom: 2px #000 solid;
 }
 
 .content {
