@@ -23,8 +23,8 @@
                 <td><a href="/project/{{ p['id'] }}">{{ p['name'] }}</a></td>
                 <td>{{ stats[p['id']] }}</td>
                 <td>
-                    <a href="/notes/{{ p['id'] }}">View Notes</a>
-                    <a href="/import/{{ p['id'] }}">Import</a>
+                    <a href="/project/{{ p['id'] }}/notes">View Notes</a>
+                    <a href="/project/{{ p['id'] }}/import">Import</a>
                     <a href="/project/{{ p['id'] }}/delete">Delete</a>
                 </td>
             </tr>
