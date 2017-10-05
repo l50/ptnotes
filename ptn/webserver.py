@@ -157,7 +157,7 @@ def get_attack(pid, aid):
     if attack is None:
         flask.abort(404)
 
-    items = [i.split(':') for i in attack['items'].split(',')]
+    items = [i.split(':') for i in set(attack['items'].split(','))]
 
     return flask.render_template('attack.html', pid=pid, attack=attack,
                 items=items, name=project['name'])
